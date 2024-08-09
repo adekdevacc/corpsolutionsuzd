@@ -89,7 +89,7 @@ class HomeController extends Controller
             [
                 'lietotaja_id' => Auth::user()->id, 
                 'darbiba' => 'show product resource',
-                'resurs' => $products->id,
+                'resurs' => $id,
                 'created_at' => now()
             ]
         );
